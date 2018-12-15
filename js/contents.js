@@ -196,7 +196,7 @@ $("document").ready(() => {
             // 동영상 파일 주소 추출
             picHtml.find("div.download-button-wrapper a").each((index, element) => {
                 //console.log($(this).attr('href'));
-                album.videos.push($(telementhis).attr("href"));
+                album.videos.push($(element).attr("href"));
             });
 
             return album;
